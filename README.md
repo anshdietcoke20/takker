@@ -186,3 +186,4 @@ HIGH channel exists first.
 - Corrupt storage blob → reset to empty instead of crash-looping on launch.
 - Scheduling failure (e.g. permission revoked mid-edit) → the edit still saves; reminders are simply dropped.
 - Push token unavailable (Expo Go / simulator / no `eas init`) → clear message + retry, no crash.
+video-link : https://drive.google.com/file/d/1dAV21YCTfPN6ND6XHcBwkNf6BvvOhUI-/view?usp=drivesdk
