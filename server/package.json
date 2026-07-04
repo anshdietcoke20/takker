@@ -1,0 +1,12 @@
+{
+  "name": "taskker-push-server",
+  "version": "1.0.0",
+  "description": "Standalone CLI to send Expo push notifications for the Taskker habit-tracker app.",
+  "type": "module",
+  "scripts": {
+    "send": "node send-push.js"
+  },
+  "dependencies": {
+    "expo-server-sdk": "^3.15.0"
+  }
+}
